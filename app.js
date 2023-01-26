@@ -1,13 +1,17 @@
-require('dotenv').config();
-const express = require('express');
+require("dotenv").config();
+const express = require("express");
+const chalk = require("chalk");
+
 const app = express();
 
 const port = process.env.PORT;
 
-app.get('/', (req, res) => {
-  res.send('Hello World!');
+app.get("/", (req, res) => {
+  res.send("Hello World!");
 });
 
 app.listen(port, () => {
-  console.log(`API listening on port ${port}`);
+  console.log(
+    `${chalk.bold.blue(`[devdox]`)} ${chalk.gray(`API listening on port ${chalk.yellow(port)}.`)}`
+  );
 });
