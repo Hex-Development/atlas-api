@@ -1,2 +1,2 @@
-# atlas-api
-✨ The brain of Atlas
+# devdox API
+✨ The brain of devdox
