@@ -1,0 +1,26 @@
+{
+  "name": "atlas-api",
+  "version": "1.0.0",
+  "description": "✨ The brain of Atlas",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atlas-dev-portal/atlas-api.git"
+  },
+  "keywords": [],
+  "author": "Expl0it",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/atlas-dev-portal/atlas-api/issues"
+  },
+  "homepage": "https://github.com/atlas-dev-portal/atlas-api#readme",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20"
+  }
+}
